@@ -202,7 +202,6 @@ gomi::restore()
                     fi
 
                     # put back
-                    echo $src
                     command mv -f "$src" "$dest"
                 done
 
